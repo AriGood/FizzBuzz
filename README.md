@@ -151,7 +151,7 @@ This is not the case in Java. You must define a method called `main` in a class
 and tell Java to run the file containing that class.
 
 ```java
-public static void main(String[] args);
+public static void main(String[] args)
 ```
 
 This is the main method, the entry point of your program. You have installed Java,
@@ -312,7 +312,7 @@ the file. Then click the commit button to commit the change to the repository.
 This change has now been made on GitHub,
 but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [x] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
 or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see the commit show up in
 your local repository.
 
