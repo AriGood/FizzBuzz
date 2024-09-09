@@ -5,7 +5,9 @@ public class Multiples {
             n++;
         }
         for (int i = 1; i*3 < 1000; i++) {
-            n++;
+            if (i%5 != 0) {
+                n++;
+            }
         }
         System.out.println(n);
     }
